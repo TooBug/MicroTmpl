@@ -25,29 +25,29 @@ See we have a template string like this：
 And an Array, an Object:
 以及一个数组，一个对象：
 
-  //Array 数组
-  var arr = [{
-    name:'TooBug',
-    age:18
-  },{
-    name:'ThreeBug',
-    age:18.1
-  }];
+	//Array 数组
+	var arr = [{
+		name:'TooBug',
+		age:18
+	},{
+		name:'ThreeBug',
+		age:18.1
+	}];
 
-  //Object 对象
-  var obj = {
-    name:'Another TooBug',
-    age:18.2
-  };
+	//Object 对象
+	var obj = {
+		name:'Another TooBug',
+		age:18.2
+	};
 
 Render like this:
 这样渲染：
 
-  var html1 = MicroTmpl(tmplStr,arr);
-  // <li>My Name is TooBug, I\'m 18 years old.</li><li>My Name is ThreeBug, I\'m 18.1 years old.</li>
+	var html1 = MicroTmpl(tmplStr,arr);
+	// <li>My Name is TooBug, I\'m 18 years old.</li><li>My Name is ThreeBug, I\'m 18.1 years old.</li>
 
-  var html2 = MicroTmpl(tmplStr,obj);
-  // <li>My Name is Another TooBug, I\'m 18.2 years old.</li>
+	var html2 = MicroTmpl(tmplStr,obj);
+	// <li>My Name is Another TooBug, I\'m 18.2 years old.</li>
 
 ## Addtions 其它
 
