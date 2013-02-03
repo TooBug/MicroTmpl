@@ -20,7 +20,7 @@ The only advantage is that this template engine is super micro, just about 15 li
 See we have a template string like this：
 假设我们有如下模板：
 
-  var tmplStr = '<li>My Name is {%name%}, I\'m {%age%} years old.</li>';
+	var tmplStr = '<li>My Name is {%name%}, I\'m {%age%} years old.</li>';
 
 And an Array, an Object:
 以及一个数组，一个对象：
@@ -50,6 +50,9 @@ Render like this:
 	// <li>My Name is Another TooBug, I\'m 18.2 years old.</li>
 
 ## Addtions 其它
+
+Depend on Array.forEach of ES5, so if used in the browsers that is not so modern, you will need a polyfill.
+依赖ES5中的Array.forEach，所以如果用在不是那么新的浏览器上，需要一个ES5数组补丁。
 
 Since the performance is not so well, it only suit for little projects.(Which maybe the JS code is smaller than a template engine.)
 由于这个模板的性能不是那么好，所以它只适合比较小的项目。（比如项目的JS代码本身比模板引擎还要小的。）
