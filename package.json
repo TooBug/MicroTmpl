@@ -1,0 +1,20 @@
+{
+  "name": "MicroTmpl",
+  "version": "0.0.1",
+  "description": "Super Micro Template",
+  "main": "microtmpl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://TooooBug@github.com/TooooBug/MicroTmpl.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "TooBug",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "44db6bc57636455de736a607a895a22536c94507"
+}
