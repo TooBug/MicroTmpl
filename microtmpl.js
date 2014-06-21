@@ -4,7 +4,8 @@
 
 		var itemdata;
 		function strReplace(match,itemName){
-			return itemdata[itemName] || '';
+			return typeof itemdata[itemName] !== 'undefined'?
+					itemdata[itemName]:'';
 		}
 		if(typeof data.length === 'undefined'){
 			data = [data];
